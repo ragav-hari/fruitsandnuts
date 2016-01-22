@@ -1,19 +1,30 @@
-{
-    "file_id":"1000",
-    "file_name":"index.html",
-    "file_path":"index.html",
-    "file_last_modified_time":"1453457330000"
+[{
+    "id":"1000",
+    "name":"index.html",
+    "path":"index.html",
+    "type":"file",
+    "last_modified_time":"1453476530000",
+    "parent":""
 },
 {
-    "file_id":"1001",
-    "file_name":"about.html",
-    "file_path":"about.html",
-    "file_last_modified_time":"1453457450000"
+    "id":"1001",
+    "name":"about.html",
+    "path":"about.html",
+    "type":"file",
+    "last_modified_time":"1453476531000",
+    "parent":""
 },
 {
-    "folder_id":"1002",
-    "folder_name":"files",
-    "folder_path":"files",
-    "files":[
-    ]
-}
+    "id":"1002",
+    "name":"files",
+    "path":"files",
+    "type":"folder",
+    "parent":""
+},
+{
+    "id":"1003",
+    "name":"test.html",
+    "path":"/files/test.html",
+    "type":"file",
+    "parent":"1002"
+}]
